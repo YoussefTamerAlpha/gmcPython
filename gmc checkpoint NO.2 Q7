@@ -1,0 +1,17 @@
+price=int(input("enter sale amount: "))
+
+
+if  (price>0):
+
+  if price<200 :
+    disc=0.1*price
+  elif 500>price>=200 :
+    disc=0.3*price
+  elif 500<=price:
+    disc=0.5*price  
+  
+
+  print("Discout  :", disc )
+  print("Net Pay  : ",price-disc)
+else:
+    print("Invalid Amount")       #Q7
