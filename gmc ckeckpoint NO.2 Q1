@@ -1,0 +1,3 @@
+Name1 =input("write your first name ")
+Name2 =input("write your last name ")
+print(Name2 ,  Name1 )     #Q1
