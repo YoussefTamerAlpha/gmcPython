@@ -1,0 +1,9 @@
+User_input= input("insert the number")
+
+User_input=int(User_input)
+
+if User_input % 2 == 0:
+  print("رقم زوجى")
+
+else :
+  print("رقم فردى")       #Q3
